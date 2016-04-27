@@ -15,7 +15,7 @@ function setup() {
   // instructions:
   textSize(32);
   textAlign(CENTER);
-  text("say something", width / 2, height / 2);
+  text("say something nice or say something mean", width / 2, height / 2);
   myRec.onResult = showResult;
   myRec.start();
 
